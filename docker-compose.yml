@@ -6,3 +6,5 @@ services:
     image: rust:dev
     volumes:
       - ./:/app
+    ports:
+      - 80:3000
